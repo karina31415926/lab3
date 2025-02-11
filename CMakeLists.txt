@@ -9,16 +9,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CUDA_STANDARD_REQUIRED ON)
 
 enable_language(CUDA)
-set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} --allow-unsupported-compiler -D_ALLOW_COMPILER_AND_STL_VERSION_MISMATCH")
 find_package(OpenMP REQUIRED)
-find_package(CUDAToolkit REQUIRED)
-
 
 include(cmake/StandardProjectSettings.cmake)
 include(cmake/PreventInSourceBuilds.cmake)
-
-include_directories(${CUDAToolkit_INCLUDE_DIRS})
-link_directories(${CUDAToolkit_LIBRARY_DIR})
 
 # project options
 add_library(project_options INTERFACE)
