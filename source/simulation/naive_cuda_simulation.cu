@@ -249,9 +249,6 @@ void get_pixels_kernel(std::uint32_t num_bodies, double2* d_positions, std::uint
     std::uint32_t pixel_y = (std::uint32_t)((pos.y - plot_bounding_box_y_min) /
         (plot_bounding_box_y_max - plot_bounding_box_y_min) * (plot_height - 1));
 
-    // Debugging: Print pixel coordinates (can get mixed output)
-    printf("Pixel Coordinates: x = %d, y = %d\n", pixel_x, pixel_y);
-
     // Compute the pixel index in row-major order
     std::uint32_t pixel_index = pixel_y * plot_width + pixel_x;
 
