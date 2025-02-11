@@ -1,0 +1,16 @@
+#pragma once
+
+#define AUTHORS_A "Lukas Rothenberger"
+#define AUTHORS_B "Karina Pikul"
+#define AUTHORS_C "Karina Pikul"
+#define AUTHORS_D "Karina Pikul"
+#define AUTHORS_E "Karina Pikul"
+#define AUTHORS_F "Karina Pikul"
+#define AUTHORS_G "Karina Pikul"
+#define AUTHORS_H "Karina Pikul"
+#define AUTHORS_I "Karina Pikul"
+#define AUTHORS_J "Karina Pikul"
+#define AUTHORS_K "Karina Pikul"
+#define AUTHORS_L "Karina Pikul"
+#define AUTHORS_M "Karina Pikul"
+#define AUTHORS_N "Karina Pikul"

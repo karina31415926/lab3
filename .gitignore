@@ -1,0 +1,5 @@
+build
+.vs/
+*.ipch
+*.VC.db
+
